@@ -1,8 +1,6 @@
 ﻿cl : línea de comandos  warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
-  InputManagement.cpp
-D:\Mis cosas\tareas\2024-2\Compu_grafica\WrongAnswer\GLSL_Lighting_wronganswer\InputManagement.cpp(16,23): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-D:\Mis cosas\tareas\2024-2\Compu_grafica\WrongAnswer\GLSL_Lighting_wronganswer\InputManagement.cpp(20,13): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-D:\Mis cosas\tareas\2024-2\Compu_grafica\WrongAnswer\GLSL_Lighting_wronganswer\InputManagement.cpp(24,24): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-D:\Mis cosas\tareas\2024-2\Compu_grafica\WrongAnswer\GLSL_Lighting_wronganswer\InputManagement.cpp(28,12): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-Arbol.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
-  TemplateProject.vcxproj -> D:\Mis cosas\tareas\2024-2\Compu_grafica\WrongAnswer\GLSL_Lighting_wronganswer\Debug\TemplateProject.exe
+  main.cpp
+D:\Mis cosas\tareas\2024-2\Compu_grafica\OpenGL_PlayerTest\main.cpp(56,28): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Mis cosas\tareas\2024-2\Compu_grafica\OpenGL_PlayerTest\main.cpp(62,27): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\Mis cosas\tareas\2024-2\Compu_grafica\OpenGL_PlayerTest\main.cpp(69,27): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+  TemplateProject.vcxproj -> D:\Mis cosas\tareas\2024-2\Compu_grafica\OpenGL_PlayerTest\Debug\TemplateProject.exe

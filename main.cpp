@@ -160,6 +160,10 @@ public:
 		{
 			this->Close(); // Close Window!
 		} 
+
+        if (cAscii >= 'A' && cAscii <= 'Z') // si esta en mayuscula
+            cAscii -= ('A' - 'a'); //pasar a minuscula
+
         if (cAscii == 'w')
         {
             std::cout << "Presionando w" << std::endl;
@@ -189,6 +193,9 @@ public:
       else if (cAscii == 'f') // f: Fixed Function
          shader->disable();
       */
+      if (cAscii >= 'A' && cAscii <= 'Z') // si esta en mayuscula
+         cAscii -= ('A' - 'a'); //pasar a minuscula
+
       if (cAscii == 'w')
       {
           std::cout << "Soltando w" << std::endl;

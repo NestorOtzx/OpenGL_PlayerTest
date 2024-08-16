@@ -1,6 +1,4 @@
-﻿cl : línea de comandos  warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
-  main.cpp
-D:\Mis cosas\tareas\2024-2\Compu_grafica\OpenGL_PlayerTest\main.cpp(56,28): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Mis cosas\tareas\2024-2\Compu_grafica\OpenGL_PlayerTest\main.cpp(62,27): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-D:\Mis cosas\tareas\2024-2\Compu_grafica\OpenGL_PlayerTest\main.cpp(69,27): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
-  TemplateProject.vcxproj -> D:\Mis cosas\tareas\2024-2\Compu_grafica\OpenGL_PlayerTest\Debug\TemplateProject.exe
+﻿cl : línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  Player.cpp
+C:\Users\sala\Desktop\WrongAnswer\OpenGL_PlayerTest\Player.cpp(18,47): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  TemplateProject.vcxproj -> C:\Users\sala\Desktop\WrongAnswer\OpenGL_PlayerTest\Debug\TemplateProject.exe

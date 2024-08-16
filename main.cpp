@@ -12,6 +12,7 @@
 #include "Arbol.h"
 #include "InputManagement.h"
 #include "Player.h"
+#include "Cola.h"
 //-----------------------------------------------------------------------------
 
 
@@ -29,6 +30,7 @@ protected:
    Arbol* arbol;
    Player* player;
    float delta; //tiempo transcurrido desde el ultimo frame
+   //Cola* miCola;
 
 public:
 	myWindow(){}
@@ -45,12 +47,17 @@ public:
          glPushMatrix();
          
          //Jugador
+         
+         //miCola->DibujarCola(30, 4, 0, 0, 0);
+
 
          player->Move(InputManagement::GetAxisX()*delta, InputManagement::GetAxisY()*delta);
          player->Dibujar();
+         
 
 
          //TRIANGULO EQUILATERO
+         /*
          glBegin(GL_TRIANGLES);
          glVertex3f(-1.5, 0+3, -3);
          glVertex3f(0, 2.12+3, -3);
@@ -89,6 +96,7 @@ public:
              glTranslatef(0, -3, 0.0f);
              glutSolidTeapot(0.5);
          glPopMatrix();
+         */
 
          glPopMatrix();
       if (shader) shader->end();
@@ -111,6 +119,7 @@ public:
 	{
         arbol = new Arbol();
         player = new Player();
+        //miCola = new Cola();
 
 		glClearColor(0.5f, 0.5f, 1.0f, 0.0f);
 		glShadeModel(GL_SMOOTH);

@@ -1,4 +1,4 @@
 ﻿cl : línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
   Player.cpp
-C:\Users\sala\Desktop\WrongAnswer\OpenGL_PlayerTest\Player.cpp(18,47): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+Arbol.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
   TemplateProject.vcxproj -> C:\Users\sala\Desktop\WrongAnswer\OpenGL_PlayerTest\Debug\TemplateProject.exe
